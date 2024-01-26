@@ -1,0 +1,48 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Content {
+  margin: 10px;
+  padding: 10px;
+  min-height: 50vh;
+  background: colorBgContainer;
+  border-radius: borderRadiusLG;
+}
+.con{
+  font-size: 16px;
+  color: white;
+} 
+
+.flag{
+  width: 20px;
+  height: 15px;
+}
+.logo{
+  display: flex;
+}
+.logos{
+  padding: 0px 10px 0px 0px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  color: #001529;
+  
+} 
+.pottPotho{
+  padding: 5px 50px 0px 0px;
+  
+}
+
+.title{
+  color: white;
+}
+.dev_potho{
+  width: 40px;
+  height: 40px;
+}
+.devolveper{
+  display: flex;
+  align-items: center;
+  color: white;
+}

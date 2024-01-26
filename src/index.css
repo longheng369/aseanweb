@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.heartBtn{
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+  padding:1rem;
+}
+
+.backBtn{
+  border:none;
+  background-color: dodgerblue;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  border-radius: 10px;
+  color: white;
+  box-shadow:inset 0px 0px 10px rgb(14, 128, 222);
+}
+.backBtn:hover{
+  border:none;
+  background-color: rgb(27, 114, 201);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.detail{
+  position: relative;
+  left:10%;
+  background-color: dodgerblue;
+  padding:0.5rem 4rem;
+  color:White;
+  font-family: Nunito;
+  font-weight: bolder;
+  border-radius: 10px;
+}
+.detail:hover{
+  color:White;
+  background-color: rgb(20, 109, 198);
+}
+
+.signOutBtn{
+  border: none;
+  border-radius: 10px;
+  padding:0.5rem 1rem;
+  background-color: dodgerblue;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: white;
+}
+.signOutBtn:hover{
+  background-color: rgb(15, 96, 177);
+}
+
+.AdminPassword{
+  font-size: 2rem;
+  padding:0.5rem 1rem;
+  width:600px;
+} 
+

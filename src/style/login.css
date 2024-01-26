@@ -1,0 +1,163 @@
+.whole {
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #cdf5fd;
+  padding: 3rem;
+  border-radius: 20px;
+  border: 1px #c8f3fc solid;
+  box-shadow: 21px 21px 31px #aaaaaa, -21px -21px 31px #ffffff;
+}
+.whole .login {
+  background-color: #a0e9ff;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 2rem;
+  border-radius: 10px;
+  gap: 1rem;
+  box-shadow: 11px 11px 23px rgba(170, 170, 170, 0.516), -11px -11px 23px #d9fffe;
+}
+.whole .login .AccountCircleIcon {
+  font-size: 6rem;
+  margin: 0 auto;
+  color: #00a9ff;
+}
+.whole .login h1 {
+  text-align: center;
+  color: #00667d;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+.whole .login h2 {
+  color: red;
+  text-align: center;
+}
+.whole .login h3 {
+  color: red;
+  text-align: center;
+}
+.whole .login .input-field {
+  background-color: #d9fdfd;
+  width: 100%;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  gap: 10px;
+  color: #0092da;
+}
+.whole .login .input-field input {
+  font-size: 1.4rem;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 91%;
+}
+.whole .login .input-field button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.whole .login .btn {
+  background-color: #00a9ff;
+  border: none;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 10px;
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+.whole .login .btn:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+.whole .login .footerlogin {
+  margin: 0 auto;
+  font-size: 15px;
+}
+.whole .login .signup {
+  font-size: 1rem;
+  margin-left: 1rem;
+  color: blue;
+}
+.whole .login .signup:hover {
+  text-decoration: underline;
+}
+.whole .signup-container {
+  background-color: #94ffe4;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 2rem;
+  border-radius: 10px;
+  gap: 1rem;
+  box-shadow: 11px 11px 23px rgba(170, 170, 170, 0.516), -11px -11px 23px #d9fffe;
+}
+.whole .signup-container .AccountCircleIcon {
+  font-size: 6rem;
+  margin: 0 auto;
+}
+.whole .signup-container h1 {
+  text-align: center;
+  color: #00667d;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+.whole .signup-container h2 {
+  color: red;
+  text-align: center;
+}
+.whole .signup-container h3 {
+  color: red;
+  text-align: center;
+}
+.whole .signup-container .input-field {
+  background-color: #d9fdfd;
+  width: 100%;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  gap: 10px;
+  color: #0092da;
+}
+.whole .signup-container .input-field input {
+  font-size: 1.4rem;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 91%;
+}
+.whole .signup-container .input-field button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.whole .signup-container .btn {
+  background-color: #00a9ff;
+  border: none;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 10px;
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+.whole .signup-container .btn:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+.whole .signup-container .footerlogin {
+  margin: 0 auto;
+  font-size: 15px;
+}
+.whole .signup-container .signup {
+  font-size: 1rem;
+  margin-left: 1rem;
+  color: blue;
+}
+.whole .signup-container .signup:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=login.css.map */

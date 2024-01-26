@@ -1,0 +1,35 @@
+.search-wrapper {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    padding: 1rem;
+  .search {
+    height: 40px;
+    display: flex;
+    input {
+      padding: 0.3rem 1rem;
+      border-radius: 10px 0 0 10px;
+      border: 1px solid rgb(134, 131, 131);
+      border-right: none;
+      font-size: 1.2rem;
+      width: 100%;
+      outline: none;
+    }
+    button {
+      padding: 0.5rem 1rem;
+      border: 1px solid rgb(140, 137, 137);
+      border-radius: 0 10px 10px 0;
+      font-size: 1.5rem;
+      transition: all 0.1s ease-in;
+      &:hover {
+        background-color: dodgerblue;
+        color: white;
+      }
+    }
+  }
+  .event{
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+    text-align: center;
+  }
+}

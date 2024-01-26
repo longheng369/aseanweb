@@ -1,0 +1,88 @@
+.signup-whole {
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #b5fff5;
+  padding: 3rem;
+  border-radius: 20px;
+  border: 1px #c8f3fc solid;
+  box-shadow: 21px 21px 31px #aaaaaa, -21px -21px 31px #ffffff;
+}
+.signup-whole .signup-container {
+  background-color: #94ffe4;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 2rem;
+  border-radius: 10px;
+  gap: 1rem;
+  margin-left: 2rem;
+  box-shadow: 11px 11px 23px rgba(170, 170, 170, 0.516), -11px -11px 23px #d9fffe;
+}
+.signup-whole .signup-container .AccountCircleIcon-s {
+  font-size: 6rem;
+  margin: 0 auto;
+  color: #0cb370;
+}
+.signup-whole .signup-container h1 {
+  text-align: center;
+  color: #00667d;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+.signup-whole .signup-container h2 {
+  color: red;
+  text-align: center;
+}
+.signup-whole .signup-container h3 {
+  color: red;
+  text-align: center;
+}
+.signup-whole .signup-container .input-field-signup {
+  background-color: #cbffe8;
+  width: 100%;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  gap: 10px;
+  color: #0eb874;
+}
+.signup-whole .signup-container .input-field-signup input {
+  font-size: 1.4rem;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 91%;
+}
+.signup-whole .signup-container .input-field-signup button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.signup-whole .signup-container .btn-s {
+  background-color: #13ca81;
+  border: none;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 10px;
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+.signup-whole .signup-container .btn-s:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+.signup-whole .signup-container .footerlogin {
+  margin: 0 auto;
+  font-size: 15px;
+}
+.signup-whole .signup-container .signup {
+  font-size: 1rem;
+  margin-left: 1rem;
+  color: blue;
+}
+.signup-whole .signup-container .signup:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=signup.css.map */

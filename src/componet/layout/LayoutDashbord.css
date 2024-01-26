@@ -1,0 +1,33 @@
+/* .mainHeaderDashbord {
+  padding: 10px;
+  height: 150px;
+  background-color: rgb(141, 137, 132);
+  display: flex;
+  justify-content: space-between;
+}
+
+.brandconten {
+  display: flex;
+  align-items: center;
+}
+.textBrand {
+  font-size: 25px;
+  font-weight: bold;
+}
+.textsub {
+  color: rgba(0, 0, 0, 0.587);
+}
+
+.menuconten .menu {
+  display: flex;
+  list-style-type: none;
+  text-decoration: none;
+}
+.menuItem {
+  padding: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.menuItem:hover {
+  background-color: rgba(0, 0, 0, 0.406);
+} */
